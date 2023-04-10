@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>東北大令和5年問題2[1]</title>
+ <meta name="description" content="東北大令和5年問題2[1]">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+ <script src="main.js"></script>
+ <script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+   <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+ </head>
+ <body>
+ <header>問題2 [1]</header>
+ <section>
+ <p>サイクロイド曲線上の運動です。</p>
+ <p>(1) $\require{physics} x=a(\theta + \sin\theta)$, $\require{physics} y=a(1-\cos\theta)$より$\require{physics} \dot{x}=a(\dot{\theta} + \dot{\theta}\cos\dot{\theta})$, $\require{physics} \dot{y}=a\dot{\theta}\sin\dot{\theta})$であるから, 運動エネルギー$$K$$は</p>
+ <p>$\displaystyle \require{physics} K=\frac{1}{2}m(\dot{x}^2+\dot{y}^2)=\frac{1}{2}ma^2\dot{\theta}^2\qty((1+\cos\theta)^2+\sin^2\theta)=ma^2\dot{\theta}^2(1+\cos\theta)</p>
+ <article>
+ </article>
+ </body>
+</html>
